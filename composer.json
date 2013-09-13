@@ -1,0 +1,23 @@
+{
+  "name": "bubujka/cltr",
+  "type": "library",
+  "description": "script execution-time collector",
+  "keywords": ["benchmark", "perfomance"],
+  "homepage": "http://github.com/Bubujka/cltr",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksej Kamynin",
+      "email": "zendzirou@gmail.com",
+      "homepage": "http://bubujka.org",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": ["cltr.php"]
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "bubujka/def": "dev-master"
+  }
+}
